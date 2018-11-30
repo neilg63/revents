@@ -6,12 +6,12 @@ class EventList extends Component {
 
   render() {
     
-    const {events} = this.props
+    const {events, onEventOpen, deleteEvent} = this.props
     return (
       <div>
           <h1>Events List</h1>
           {events.map((event) => (
-              <EventListItem key={event.id} event={event}/>
+              <EventListItem key={event.id} event={event} onEventOpen={onEventOpen} deleteEvent={deleteEvent} />
           ))}
       </div>
     )
