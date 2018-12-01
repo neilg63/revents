@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Aboutage = () => {
+const AboutPage = () => {
     return (
         <div>
             <h1>About Page</h1>
@@ -9,4 +9,4 @@ const Aboutage = () => {
     )
 }
 
-export default Aboutage
+export default AboutPage
