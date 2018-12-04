@@ -6,6 +6,7 @@ import modalsReducer from '../../features/modals/modalsReducer'
 import authReducer from '../../features/auth/authReducer'
 import {firebaseReducer } from 'react-redux-firebase'
 import {firestoreReducer } from 'react-redux-firestore'
+
 const rootReducer = combineReducers({
     firebase: firebaseReducer,
     firestore: firestoreReducer,
